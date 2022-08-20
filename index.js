@@ -3,6 +3,7 @@ const cors = require("cors");
 const jwt = require("jsonwebtoken");
 const nodemailer= require("nodemailer");
 const dotenv = require("dotenv");
+const path = require("path");
 dotenv.config({ path: __dirname + '/.env' });
 
 const PORT = process.env.PORT || 5000;
